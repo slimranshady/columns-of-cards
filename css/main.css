@@ -1,0 +1,9 @@
+html {
+  box-sizing: border-box;
+  vertical-align: middle;
+  text-align: center;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
