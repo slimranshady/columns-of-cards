@@ -1,9 +1,92 @@
 html {
   box-sizing: border-box;
-  vertical-align: middle;
-  text-align: center;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  background-color: #f2f2f2;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+img {
+  padding: 3px 0 1rem 0;
+  margin: 0 auto;
+  width: 30%;
+  display: block;
+}
+
+section {
+  float: left;
+  width: 25%;
+}
+
+div {
+  width: 100%;
+  border-left: .5px solid #333;
+  padding: .5em .5em .3em .5em;
+}
+
+.card1 {
+  background-color: #e2e2e2;
+}
+
+.card2 {
+  background-color: #ccc;
+}
+
+.card3 {
+  background-color: #aaa;
+}
+
+.card4 {
+  background-color: #999;
+}
+
+p {
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+cite {
+  font-size: 0.875rem;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+
+  font-size: 1.125rem;
+  text-decoration: none;
+  text-align: left;
+
+  padding: 0.4em 0.75em 0.3em;
+  border-radius: 8px;
+  border-width: 3px;
+  border-color: #333;
+  border-style: solid;
+  margin: 0;
+  display: inline-block;
+}
+
+.btn-small {
+  font-size: 0.875rem;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
 }
